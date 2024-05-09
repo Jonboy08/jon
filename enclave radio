@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enclave Radio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Enclave Radio</h1>
+    </header>
+    <main>
+        <section class="live-stream">
+            <h2>Listen Live</h2>
+            <!-- Add your audio player here -->
+            <audio controls>
+                <source src="your-audio-stream-url" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <section class="schedule">
+            <h2>Program Schedule</h2>
+            <!-- Add your program schedule here -->
+            <p>Schedule coming soon...</p>
+        </section>
+        <section class="about">
+            <h2>About Enclave Radio</h2>
+            <!-- Add information about Enclave Radio here -->
+            <p>Enclave Radio is your source for...</p>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <!-- Add contact information here -->
+            <p>Email: info@enclaveradio.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Enclave Radio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #000;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
